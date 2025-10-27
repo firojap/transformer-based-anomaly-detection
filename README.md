@@ -1,5 +1,7 @@
 # Explaining Manufacturing Anomalies: Transformer-Based Detection with xAI for Imbalanced Process Data
-#### An anomaly detection classification approach based on Transformer-based encoder techniques
+### An anomaly detection classification approach based on Transformer-based encoder techniques
+
+#### Abdullah Al Noman, Anton Zitnikov, Firoj Ahmmed Patwary, Aaron Heuermann, Klaus-Dieter Thoben
 ---
 
 ## Transformer-based Anomaly Detection
@@ -41,21 +43,21 @@ anomaly_detection/
 ### Workflow of the Project:
 ![Workflow](https://github.com/firojap/transformer-based-anomaly-detection/blob/master/Figures/flow_.png)
 
-__Figure:__ *SHAP summary plot for the BiLSTM model. Red dots represent the high values of each feature and blue dots represent the low values of each feature. The y-axis lists the features in order of their importance, with the most significant feature at the top. The x-axis represents the SHAP values, which indicate the magnitude and direction of each feature’s impact on the model’s output.*
+__Figure:__ *This was the project workflow.*
 
 ---
 
 ### Contributed Features to Anomaly:
 ![Bar Diagram](https://github.com/firojap/transformer-based-anomaly-detection/blob/master/Figures/lime3f.png)
 
-__Figure:__ *SHAP summary plot for the BiLSTM model. Red dots represent the high values of each feature and blue dots represent the low values of each feature. The y-axis lists the features in order of their importance, with the most significant feature at the top. The x-axis represents the SHAP values, which indicate the magnitude and direction of each feature’s impact on the model’s output.*
+__Figure:__ *This figire shows the most contributed feature to anomaly among the datasets.*
 
 ---
 
 ### ROC Curve:
 ![ROC Curve](https://github.com/firojap/transformer-based-anomaly-detection/blob/master/Figures/roc_.PNG)
 
-__Figure:__ *SHAP summary plot for the BiLSTM model. Red dots represent the high values of each feature and blue dots represent the low values of each feature. The y-axis lists the features in order of their importance, with the most significant feature at the top. The x-axis represents the SHAP values, which indicate the magnitude and direction of each feature’s impact on the model’s output.*
+__Figure:__ *ROC curve for different percentages of data augmentation for model performance evaluation.*
 
 ---
 
@@ -70,14 +72,14 @@ If you use or refer to this work, please cite it as follows:
 ---
 
 #### 🔹 APA Citation
-```
+
 Al Noman, A., Zitnikov, A., Patwary, F. A., Heuermann, A., & Thoben, K. D. (2025). Explaining Manufacturing Anomalies: Transformer-Based Detection with xAI for Imbalanced Process Data. IFAC-PapersOnLine, 59(10), 1498-1503.
-```
+
 ---
 #### 🔹 MLA Citation
-```
+
 Al Noman, Abdullah, et al. "Explaining Manufacturing Anomalies: Transformer-Based Detection with xAI for Imbalanced Process Data." IFAC-PapersOnLine 59.10 (2025): 1498-1503.
-```
+
 ---
 #### 🔹 BibTeX Citation
 ```bibtex
